@@ -1,0 +1,5 @@
+模型名称   	FF层	 激活函数	归一化	       transformer的结构
+baichuan2	gated形式	 SiLU	 RMSnorm/pre      norm	串行
+chatglm2	gated形式	 SiLU	 RMSnorm/pre      norm	串行
+chatglm3	gated形式	 SiLU	 RMSnorm/pre      norm	串行
+moss	    传统方式	   GELU	  LayerNorm	      并行
